@@ -1,0 +1,12 @@
+psycopg2-binary
+transformers
+sentence-transformers
+faiss-cpu
+streamlit
+sqlite3
+faiss
+pandas
+numpy
+google.generativeai
+joblib
+
