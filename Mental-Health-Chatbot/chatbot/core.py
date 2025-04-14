@@ -13,7 +13,7 @@ from chatbot.database import DB_PATH
 index, df, embedding_model = load_resources()
 
 # Configure Gemini
-genai.configure(api_key="AIzaSyDsqpgL_hClxO8FDFO3QmaclGbq7__AJ0w")  # Replace with secure method for deployment
+genai.configure(api_key="Add  your API Key")  # Replace with secure method for deployment
 llm = genai.GenerativeModel("gemini-2.0-flash")
 
 # ------------------ FAISS Search ------------------
